@@ -3,20 +3,20 @@ LPなど小規模制作の開発環境。
 srcが開発ディレクトリ、distが納品ディレクトリ。  
 distは中のファイル類が圧縮されて出力される。  
 
-# Dependency
+## Dependency
 |  HTML  |  CSS  |
 | ---- | ---- | 
 |  Pug  |  Stylus  |
 
 JavaScriptはBabelで変換。
 
-# Setup
+## Setup
 ```
 yarn install
 ```
 yarn install もしくは npm installでnode_modulesを作成。
 
-# Usage
+## Usage
 ```
 yarn build
 ```
